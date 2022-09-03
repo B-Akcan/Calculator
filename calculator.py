@@ -41,7 +41,7 @@ txtvar.set("")
 lbl1_style = ttk.Style()
 lbl1_style.configure("Label1.TLabel", font=("Tempus Sans ITC", 30))
 lbl1 = ttk.Label(root, textvariable=txtvar, style="Label1.TLabel")
-lbl1.place(x=5, y=20)
+lbl1.place(x=5, y=20, width=285)
 
 
 # Buttons.
